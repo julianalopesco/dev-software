@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando formulários</title>
+</head>
+<body>
+    <h1>Tipos de input</h1>
+     <form action="">
+
+        <fieldset><!--agrupa campos de input-->
+            <h4>Texto comum</h4>
+                <input id="nome" name="nome" type="text">
+            <h4>Senha</h4>
+                <input id="senha" name="senha" type="password">
+            <h4>Número</h4>
+                <input id="idade" name="idade"  type="number">
+            <h4>Email</h4>
+                <input id="email" name="email" type="email">
+            <h4>Data</h4>
+                <input id="dtNascimento" name="dtNascimento" type="date">
+            <h4>Cor</h4>
+                <input id="corFavorita" name="corFavorita" type="color"> 
+            <h4>Bloco de texto</h4>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+        </fieldset>
+        <h4>Menu de opções</h4>
+            <select name="opcoes" id="opcoes">
+                <option value="op1">Opção 1</option>
+                <option value="op2">Opção 2</option>
+                <option value="op3">Opção 3</option>
+                <option selected value="op3">Opção padrão</option>
+            </select>
+        <h4>Menu de opções múltiplas</h4>
+            <select name="opcoes" id="opcoes" multiple size="2">
+                <option value="op1">Opção 1</option>
+                <option value="op2">Opção 2</option>
+                <option value="op3">Opção 3</option>
+                <option value="op4">Opção 4</option>
+                <option value="op5">Opção 5</option>
+                <option selected value="op3">Opção padrão</option>
+            </select>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h4>Formulário com label</h4>
+    <form action="">
+        <label for="nome">Nome</label>
+        <input type="hidden" name="nome" value="Juliana">
+        <button type="submit">Enviar</button>
+    </form>
+    <h4>Formulário com placeholder</h4>
+    <form action="">
+        <input placeholder = "Informe seu endereço de e-mail" name = "email"  type = "text">
+    </form>
+    <fieldset>
+        <h4>Tipos de botões</h4>
+            <input name="arquivo" id="arquivo" type="file">
+            <button type="submit">Enviar</button>
+            <button type = “reset”> Redefinir </button>
+    </fieldset>
+    <fieldset>
+        <h4>Outros</h4>
+        <input name = "checkbox" type = "checkbox"> Checkbox
+    </fieldset>
+</body>
+</html>
