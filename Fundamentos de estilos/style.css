@@ -1,0 +1,38 @@
+body {
+    background-attachment: fixed;
+    background-color: rgba(212, 212, 188, 0.575);
+}
+
+
+/*elemento selecionado pela tag*/
+p {
+    color:blue;
+    font-size: 20px;
+}
+
+/*elemento selecionado pela classe dentro da tag*/
+.parafrafoPequeno {
+    font-size: 10px;
+}
+
+/* elemento selecionado pelo id*/
+#textoGrande {
+    font-size: 30px;
+    color: red;
+}
+
+/*elemento selecionado pela tag*/
+div {
+    width: 500px;
+    height: 200px;
+    background: rgb(150, 150, 229);
+
+}
+
+/*div selecionada pelo id*/
+#div2, #div3 {
+    width: 500px;
+    height: 200px;
+    background: rgb(223, 167, 13);
+}
+
