@@ -1,0 +1,53 @@
+.navbar {
+    background-color: #8fa6b6;
+}
+
+.nav-link.active {
+    color:#191b36; 
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: crimson;
+}
+.navbar-brand { 
+    color:#191b36; 
+    font-weight: bold;
+}
+
+
+.custom-button {
+    background-color: #191b36; 
+    color: #FFFFFF; 
+    }
+
+.custom-button:hover{
+    background-color: crimson;
+}
+
+.header{
+    background-color: #8fa6b6;
+}
+
+.btn {
+    background-color: #191b36; 
+    color: #FFFFFF; 
+}
+
+.btn:hover {
+    background-color: crimson;
+}
+
+.btn-outline-light{
+    background-color: #8fa6b6 ;
+    color: #FFFFFF; 
+}
+
+.carousel {
+    width: 500px;
+}
+
+.form {
+    justify-content: center;
+    align-items: center;
+}
